@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/Dashboard.css";
-import logo from "../assets/logo.png";   // your dragon logo
+//import logo from "../assets/logo.png";   // your dragon logo
 
 const Dashboard = () => {
   const navigate = useNavigate();

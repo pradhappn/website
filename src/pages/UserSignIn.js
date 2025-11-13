@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/UserSignIn.css";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 
+import { Link } from "react-router-dom";
 const UserSignIn = () => {
   return (
     <div className="signin-page">
@@ -25,7 +26,9 @@ const UserSignIn = () => {
         <label>Password</label>
         <input type="password" placeholder="Password" />
 
-        <a className="forgot">Forgot password?</a>
+        <Link to="/forgot-password" className="forgot">
+          Forgot password?
+        </Link>
 
         <button className="signin-btn">Sign in</button>
       </div>
