@@ -1,0 +1,65 @@
+/* Dashboard background */
+.dashboard-bg {
+  height: 100vh;
+  width: 100%;
+  background: #cfe4ff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FIXED TOP BAR ALIGNMENT */
+.top-bar {
+  height: 80px;
+  width: 100%;
+  background: #1b1f27;
+  display: flex;
+  align-items: center;        /* FIX: vertically centers buttons */
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* RIGHT side button container */
+.right-buttons {
+  display: flex;
+  align-items: center;        /* FIX: vertical center */
+  gap: 10px;
+}
+
+/* ALL BUTTONS SAME SIZE */
+.btn {
+  width: 130px;
+  height: 42px;
+  border: none;
+  border-radius: 25px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;        /* FIX: perfect button centering */
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Button colors */
+.admin-btn {
+  background: #1e73d8;
+}
+
+.sign-btn {
+  background: #0b3db3;
+}
+
+.signup-btn {
+  background: #0d63d6;
+}
+
+/* Hover */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
