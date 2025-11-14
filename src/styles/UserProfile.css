@@ -1,0 +1,116 @@
+.user-layout {
+  display: flex;
+  background: #b3d8ff;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.profile-container {
+  margin-left: 230px; /* space for fixed sidebar */
+  width: calc(100% - 230px);
+  padding: 20px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.top-header h1 {
+  font-size: 32px;
+  color: #0e3a70;
+}
+
+.wallet-btn {
+  padding: 12px 20px;
+  background: #6aaef7;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Main two boxes layout */
+.profile-content {
+  display: flex;
+  gap: 30px;
+}
+
+/* LEFT BOX */
+.left-box {
+  background: #72b2f9;
+  padding: 20px;
+  width: 280px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.edit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #3a8ae8;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* RIGHT BOX */
+.right-box {
+  flex: 1;
+  background: #72b2f9;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.input-block {
+  margin-bottom: 25px;
+}
+
+.input-block label {
+  font-weight: bold;
+  color: white;
+}
+
+.input-block input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* big message box */
+.big-box {
+  height: 120px;
+  background: #9acdfc;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.password-btn {
+  width: 100%;
+  padding: 14px;
+  background: #3a8ae8;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+}

@@ -1,16 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="page-container">
       <div className="top-bar">
-
-        <button className="btn admin-btn">ADMIN LOGIN</button>
+        <button className="btn admin-btn" onClick={() => navigate("/admin")}>
+          ADMIN LOGIN
+        </button>
 
         <div className="right-buttons">
-          <button className="btn sign-btn">SIGN IN</button>
-          <button className="btn signup-btn">SIGN UP</button>
+          <button className="btn sign-btn" onClick={() => navigate("/signin")}>SIGN IN</button>
+          <button className="btn signup-btn" onClick={() => navigate("/signup")}>SIGN UP</button>
         </div>
 
       </div>

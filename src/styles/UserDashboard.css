@@ -1,0 +1,137 @@
+/* MAIN LAYOUT */
+.dashboard-container {
+  margin-left: 220px; 
+  padding: 20px;
+  background: #b6dcff;
+  min-height: 100vh;
+}
+
+/* TOP BUTTON */
+.top-wallet-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.top-wallet-btn button {
+  background: #6da9ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* WALLET BOXES */
+.wallet-row {
+  display: flex;
+  gap: 20px;
+}
+
+.wallet-box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.wallet-box h3 {
+  margin-bottom: 10px;
+}
+
+.upgrade-btn {
+  background: #6da9ff;
+  padding: 8px 14px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* INCOME SECTION */
+.income-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.income-box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.referral-box {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.referral-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.ref-upgrade {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.ref-upgrade button {
+  background: #6da9ff;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 6px;
+}
+
+/* PACKAGE BUTTONS */
+.pkg-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.pkg-buttons button {
+  background: #6da9ff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+/* NFT CARD ROW */
+.nft-row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.nft-card {
+  background: white;
+  padding: 15px;
+  width: 140px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nft-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nft-card button {
+  background: #6da9ff;
+  border: none;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+}
